@@ -6,7 +6,7 @@ module.exports = (options, app) => {
     return async function systemOptionLogRouter(ctx, next) {
 
         let pluginConfig = app.config.doraSystemOptionLog;
-        await ctx.initPluginRouter(pluginConfig, systemOptionLogManageController);
+        await app.initPluginRouter(ctx, pluginConfig, systemOptionLogManageController);
         await next();
 
     }
