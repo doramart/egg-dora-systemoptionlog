@@ -1,6 +1,6 @@
 {
   "name": "egg-dora-systemoptionlog",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "systemOptionLog",
   "eggPlugin": {
     "name": "doraSystemOptionLog"
@@ -52,7 +52,7 @@
     "url": "git+https://github.com/doramart/egg-dora-systemoptionlog.git"
   },
   "bugs": {
-    "url": "https://github.com/doramart/egg/issues"
+    "url": "https://github.com/doramart/egg-dora-systemoptionlog/issues"
   },
   "homepage": "https://github.com/doramart/egg-dora-systemoptionlog#readme",
   "author": "doramart",
